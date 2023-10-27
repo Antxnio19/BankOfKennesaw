@@ -1,0 +1,18 @@
+
+    <header>
+        <nav #nav [class.active]="navActive" id="nav">
+            <ul>
+                <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+                <li><a routerLink="/about" routerLinkActive="active">About Us</a></li>
+                <li><a routerLink="/call" routerLinkActive="active">Schedule a Call</a></li>
+                <li><a routerLink="/signIn" routerLinkActive="active">Sing In</a></li>
+            </ul>
+
+            <button #toggle (click)="toggleNav()" class="icon" id="toggle">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+            </button>
+
+        </nav>
+
+    </header>
