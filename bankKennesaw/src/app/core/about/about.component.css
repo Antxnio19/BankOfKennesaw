@@ -1,0 +1,14 @@
+.main-content{
+    justify-content: center;
+    text-align: center;
+}
+
+  .row-container {
+    display: flex;
+    padding-top: 10%;
+  }
+
+  .col {
+    flex: 1;
+    padding: 1rem;
+  }

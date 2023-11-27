@@ -1,4 +1,4 @@
-.card-body{
+.main-container{    
     justify-content: center;
     text-align: center;
 }
@@ -29,3 +29,4 @@ form {
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
   }
+
